@@ -10,7 +10,7 @@ To run sqlrun use the utility 'sh'
 sh sqlrun.sh
 ```
 
-This will save the output of the query to the file output.html
+This will save the output of the query located in script.sql to the file output.html
 
 To find this output then display it on the browser instead run
 
