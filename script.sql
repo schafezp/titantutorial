@@ -1,2 +1,3 @@
-select  table_name from information_schema.tables;
+\set style=html
+select  * from information_schema.tables;
 \go

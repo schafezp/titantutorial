@@ -6,7 +6,14 @@ Included are the bash functions developed during the tutorial.
 
 To run sqlrun use the utility 'sh'
 
-'''bash
+```bash
 sh sqlrun.sh
-'''
-`
+```
+
+This will save the output of the query to the file output.html
+
+To find this output then display it on the browser instead run
+
+```bash
+sh sqlrundisplay.sh
+```
