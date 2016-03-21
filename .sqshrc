@@ -1,0 +1,4 @@
+\set username=MYUSERNAME
+\set password=MyPASSWORD
+\set DSQUERY=TITAN
+\set style=pretty

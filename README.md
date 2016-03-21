@@ -17,3 +17,12 @@ To find this output then display it on the browser instead run
 ```bash
 sh sqlrundisplay.sh
 ```
+
+
+There are some more useful files which are included here.
+There is a .sqshrc file which sets up the default username and password login for sqsh to use.
+Modify the file to include your correct username and password then copy it to your home directory.
+
+```bash
+cp .sqshrc ~/.sqshrc
+```
