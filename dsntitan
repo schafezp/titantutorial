@@ -1,0 +1,7 @@
+[TITAN]
+Driver = FreeTDS
+TDS_Version = 7.2
+Description = Rose's Titan Datasource
+Server = titan.csse.rose-hulman.edu
+port = 1433
+Database = DBNAME
