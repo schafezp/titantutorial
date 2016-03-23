@@ -1,5 +1,5 @@
 sqlrun(){
-    #Parameter 1 is sql script file, Parameter 2 is output destination html file
+    #Parameter 1 is sql script file, Parameter 2 is output destination file
     #if non zero length first parameter,
     if [ -z "$1" ]
     then

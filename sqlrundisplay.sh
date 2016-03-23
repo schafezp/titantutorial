@@ -1,5 +1,5 @@
 sqlrun(){
-    #Parameter 1 is sql script file, Parameter 2 is output destination html file
+    #Parameter 1 is sql script file, Parameter 2 is output destination file
     #if non zero length first parameter,
     if [ -z "$1" ]
     then
@@ -21,7 +21,7 @@ sqlrun(){
         fi
     fi
 };
-#automagically display result of sql query.
+#Automagically display result of sql query.
 sqlrundisplay(){
     #Parameter 1 is sql script file, 
     #Parameter 2 is output destination html file

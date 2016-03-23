@@ -21,12 +21,11 @@ sh sqlrundisplay.sh
 
 There are some more useful files which are included here.
 If you want to set up the functions to be defined in your ~/.bashrc like the tutorial advises,
-simply copy the contents of the .sh scripts without the last line that actually executes the code and place it in somewhere in ~/.bashrc
+simply copy the contents of the "putmeinbashrc" file into ~/.bashrc
 Then run 
 ```bash
 source ~/.bashrc
 ```
-
 
 Additionally, there is a .sqshrc file which sets up the default username and password login for sqsh to use.
 Modify the file to include your correct username and password then copy it to your home directory.
