@@ -12,7 +12,7 @@ sh sqlrun.sh
 
 This will save the output of the query located in script.sql to the file output.html
 
-To find this output then display it on the browser instead run
+To generate this output then display it in the browser instead run
 
 ```bash
 sh sqlrundisplay.sh
@@ -26,10 +26,8 @@ Then run
 ```bash
 source ~/.bashrc
 ```
-
-Additionally, there is a .sqshrc file which sets up the default username and password login for sqsh to use.
-Modify the file to include your correct username and password then copy it to your home directory.
+Now you can invoke sqlrun from the terminal in the form,
 
 ```bash
-cp .sqshrc ~/.sqshrc
+sqlrun scriptname outputname
 ```
